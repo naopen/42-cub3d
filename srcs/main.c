@@ -6,7 +6,7 @@
 /*   By: nkannan <nkannan@student.42tokyo.jp>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/12/31 20:59:33 by nkannan           #+#    #+#             */
-/*   Updated: 2024/12/31 21:00:21 by nkannan          ###   ########.fr       */
+/*   Updated: 2025/01/04 11:32:25 by nkannan          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,7 +25,7 @@ int	main(int argc, char **argv)
 	if (argc != 2)
 		exit_with_error("Usage: ./cub3D <map.cub>");
 	// 1. ゲーム構造体を 0 クリア
-	memset(&game, 0, sizeof(t_game));
+	ft_memset(&game, 0, sizeof(t_game));
 	// 2. .cub ファイルのパース (テクスチャパス、色、マップ読み込み)
 	if (parse_config(&game, argv[1]) == -1)
 		exit_with_error("Failed to parse configuration.");
