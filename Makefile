@@ -6,7 +6,7 @@
 #    By: nkannan <nkannan@student.42tokyo.jp>       +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2024/12/30 18:04:39 by nkannan           #+#    #+#              #
-#    Updated: 2024/12/30 18:10:58 by nkannan          ###   ########.fr        #
+#    Updated: 2025/01/04 11:30:23 by nkannan          ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -17,7 +17,7 @@ CFLAGS      = -Wall -Wextra -Werror
 LIBFT_DIR   = ./libft
 LIBFT       = $(LIBFT_DIR)/libft.a
 
-MLX_DIR     = ./minilibx
+MLX_DIR     = ./mlx
 MLX         = $(MLX_DIR)/libmlx.a
 
 # ソースとオブジェクト
@@ -29,7 +29,7 @@ SRCS        = $(SRCS_DIR)/main.c \
 				$(SRCS_DIR)/parse_map.c \
 				$(SRCS_DIR)/init.c \
 				$(SRCS_DIR)/hooks.c \
-				(SRCS_DIR)/raycast.c \
+				$(SRCS_DIR)/raycast.c \
 				$(SRCS_DIR)/draw.c \
 				$(SRCS_DIR)/utils.c
 

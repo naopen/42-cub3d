@@ -6,20 +6,20 @@
 /*   By: nkannan <nkannan@student.42tokyo.jp>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/12/30 18:05:30 by nkannan           #+#    #+#             */
-/*   Updated: 2024/12/31 21:14:47 by nkannan          ###   ########.fr       */
+/*   Updated: 2025/01/04 11:33:44 by nkannan          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #ifndef CUB3D_H
 # define CUB3D_H
 
+# include "../libft/libft.h"
+# include "../mlx/mlx.h"
 # include <fcntl.h>
 # include <math.h>
 # include <stdio.h>
 # include <stdlib.h>
 # include <unistd.h>
-// miniLibX (パスは環境に合わせて)
-# include "mlx.h"
 
 // ---- 定数・マクロ ----
 # define WIN_WIDTH 800
