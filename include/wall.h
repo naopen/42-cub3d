@@ -6,7 +6,7 @@
 /*   By: nkannan <nkannan@student.42tokyo.jp>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/12/24 14:08:37 by hosokawa          #+#    #+#             */
-/*   Updated: 2025/02/11 17:19:12 by dhosokaw         ###   ########.fr       */
+/*   Updated: 2025/02/11 17:29:18 by dhosokaw         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -27,8 +27,8 @@
 # define HEIGHT 720
 
 // texture
-# define TEXWIDTH 64
-# define TEXHEIGHT 64
+# define TEXWIDTH 50
+# define TEXHEIGHT 50
 
 // rayInfo
 # define PLAYERX 1.5
