@@ -17,8 +17,8 @@ static void	caluculate_step_direct(double ray_x, double ray_y, t_game *game)
 	if (ray_x < 0)
 	{
 		game->dda_info.step_x = -1;
-		game->dda_info.side_dist_x = (game->camera.pos_x - (game->dda_info.map_x))
-			* (game->dda_info.delta_dist_x);
+		game->dda_info.side_dist_x = (game->camera.pos_x
+				- (game->dda_info.map_x)) * (game->dda_info.delta_dist_x);
 	}
 	else
 	{
@@ -29,8 +29,8 @@ static void	caluculate_step_direct(double ray_x, double ray_y, t_game *game)
 	if (ray_y < 0)
 	{
 		game->dda_info.step_y = -1;
-		game->dda_info.side_dist_y = (game->camera.pos_y - (game->dda_info.map_y))
-			* (game->dda_info.delta_dist_y);
+		game->dda_info.side_dist_y = (game->camera.pos_y
+				- (game->dda_info.map_y)) * (game->dda_info.delta_dist_y);
 	}
 	else
 	{
@@ -76,7 +76,9 @@ void	calculate_dda_algo(int **map, t_dda_info *dda_info)
 void	calculate_perp_hight(t_dda_info *dda_info)
 {
 	if (dda_info->side == 0)
-		dda_info->perp_wall_dist = (dda_info->side_dist_x - (dda_info->delta_dist_x));
+		dda_info->perp_wall_dist = (dda_info->side_dist_x
+				- (dda_info->delta_dist_x));
 	else
-		dda_info->perp_wall_dist = (dda_info->side_dist_y - (dda_info->delta_dist_y));
+		dda_info->perp_wall_dist = (dda_info->side_dist_y
+				- (dda_info->delta_dist_y));
 }

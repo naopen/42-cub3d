@@ -33,7 +33,7 @@ void	wall_init(t_game *game)
 	game->wall.key_left = 0;
 	game->wall.key_right = 0;
 	game->wall.key_left_rotate = 0;
-    	game->wall.key_right_rotate = 0;
+	game->wall.key_right_rotate = 0;
 }
 
 // reverse_fit
