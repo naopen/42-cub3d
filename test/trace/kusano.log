@@ -1,0 +1,274 @@
+Trace Log for map/error_kusano - Tue Feb 11 17:11:18 JST 2025
+=== OK Result for map/error_kusano/COLOR_ER1.cub ===
+Command: ./cub3D "map/error_kusano/COLOR_ER1.cub"
+Exit Status: 1
+Output:
+Error
+Color must be in [0..255]
+
+=== OK Result for map/error_kusano/COLOR_ER2.cub ===
+Command: ./cub3D "map/error_kusano/COLOR_ER2.cub"
+Exit Status: 1
+Output:
+Error
+Invalid R channel
+
+=== OK Result for map/error_kusano/COLOR_ER3.cub ===
+Command: ./cub3D "map/error_kusano/COLOR_ER3.cub"
+Exit Status: 1
+Output:
+Error
+Invalid B channel
+
+=== OK Result for map/error_kusano/COLOR_ER4.cub ===
+Command: ./cub3D "map/error_kusano/COLOR_ER4.cub"
+Exit Status: 1
+Output:
+Error
+Invalid R channel
+
+=== OK Result for map/error_kusano/COLOR_ER5.cub ===
+Command: ./cub3D "map/error_kusano/COLOR_ER5.cub"
+Exit Status: 1
+Output:
+Error
+Color must be in [0..255]
+
+=== OK Result for map/error_kusano/C_OVER.cub ===
+Command: ./cub3D "map/error_kusano/C_OVER.cub"
+Exit Status: 1
+Output:
+Error
+error: invalid texture
+
+=== OK Result for map/error_kusano/C_less.cub ===
+Command: ./cub3D "map/error_kusano/C_less.cub"
+Exit Status: 1
+Output:
+Error
+Missing floor or ceiling color (F or C).
+
+=== OK Result for map/error_kusano/EA_OVER.cub ===
+Command: ./cub3D "map/error_kusano/EA_OVER.cub"
+Exit Status: 1
+Output:
+Error
+error: invalid texture
+
+=== OK Result for map/error_kusano/EA_less.cub ===
+Command: ./cub3D "map/error_kusano/EA_less.cub"
+Exit Status: 1
+Output:
+Error
+Textures must be set before map or need 4 textures
+
+=== OK Result for map/error_kusano/EXTRA_ELEMENTS.cub ===
+Command: ./cub3D "map/error_kusano/EXTRA_ELEMENTS.cub"
+Exit Status: 1
+Output:
+Error
+error: invalid texture
+
+=== OK Result for map/error_kusano/EXTRA_ELEMENTS2.cub ===
+Command: ./cub3D "map/error_kusano/EXTRA_ELEMENTS2.cub"
+Exit Status: 1
+Output:
+Error
+error: invalid texture
+
+=== OK Result for map/error_kusano/EXTRA_ELEMENTS3.cub ===
+Command: ./cub3D "map/error_kusano/EXTRA_ELEMENTS3.cub"
+Exit Status: 1
+Output:
+Error
+Textures must be set before map or need 4 textures
+
+=== OK Result for map/error_kusano/EXTRA_ELEMENTS4 copy.cub ===
+Command: ./cub3D "map/error_kusano/EXTRA_ELEMENTS4 copy.cub"
+Exit Status: 1
+Output:
+Error
+Missing floor or ceiling color (F or C).
+
+=== OK Result for map/error_kusano/F_OVER.cub ===
+Command: ./cub3D "map/error_kusano/F_OVER.cub"
+Exit Status: 1
+Output:
+Error
+error: invalid texture
+
+=== OK Result for map/error_kusano/F_less.cub ===
+Command: ./cub3D "map/error_kusano/F_less.cub"
+Exit Status: 1
+Output:
+Error
+Missing floor or ceiling color (F or C).
+
+=== OK Result for map/error_kusano/MAP_ELEMENT1.cub ===
+Command: ./cub3D "map/error_kusano/MAP_ELEMENT1.cub"
+Exit Status: 1
+Output:
+Error
+Map line contains invalid characters
+
+=== OK Result for map/error_kusano/MAP_ELEMENT2.cub ===
+Command: ./cub3D "map/error_kusano/MAP_ELEMENT2.cub"
+Exit Status: 1
+Output:
+Error
+More than one player start found.
+
+=== OK Result for map/error_kusano/MAP_ELEMENT3.cub ===
+Command: ./cub3D "map/error_kusano/MAP_ELEMENT3.cub"
+Exit Status: 1
+Output:
+Error
+Map line contains invalid characters
+
+=== OK Result for map/error_kusano/MAP_ELEMENT4.cub ===
+Command: ./cub3D "map/error_kusano/MAP_ELEMENT4.cub"
+Exit Status: 1
+Output:
+Error
+Empty line within map data
+
+=== OK Result for map/error_kusano/NO_OVER.cub ===
+Command: ./cub3D "map/error_kusano/NO_OVER.cub"
+Exit Status: 1
+Output:
+Error
+error: invalid texture
+
+=== OK Result for map/error_kusano/NO_PATH.cub ===
+Command: ./cub3D "map/error_kusano/NO_PATH.cub"
+Exit Status: 1
+Output:
+Error
+error: invalid texture
+
+=== OK Result for map/error_kusano/NO_SURROUNDED_WALL.cub ===
+Command: ./cub3D "map/error_kusano/NO_SURROUNDED_WALL.cub"
+Exit Status: 1
+Output:
+Error
+not close map_data
+
+=== OK Result for map/error_kusano/NO_SURROUNDED_WALL10.cub ===
+Command: ./cub3D "map/error_kusano/NO_SURROUNDED_WALL10.cub"
+Exit Status: 1
+Output:
+Error
+not close map_data
+
+=== OK Result for map/error_kusano/NO_SURROUNDED_WALL2.cub ===
+Command: ./cub3D "map/error_kusano/NO_SURROUNDED_WALL2.cub"
+Exit Status: 1
+Output:
+Error
+not close map_data
+
+=== OK Result for map/error_kusano/NO_SURROUNDED_WALL3.cub ===
+Command: ./cub3D "map/error_kusano/NO_SURROUNDED_WALL3.cub"
+Exit Status: 1
+Output:
+Error
+not close map_data
+
+=== OK Result for map/error_kusano/NO_SURROUNDED_WALL4.cub ===
+Command: ./cub3D "map/error_kusano/NO_SURROUNDED_WALL4.cub"
+Exit Status: 1
+Output:
+Error
+not close map_data
+
+=== OK Result for map/error_kusano/NO_SURROUNDED_WALL5.cub ===
+Command: ./cub3D "map/error_kusano/NO_SURROUNDED_WALL5.cub"
+Exit Status: 1
+Output:
+Error
+not close map_data
+
+=== OK Result for map/error_kusano/NO_SURROUNDED_WALL6.cub ===
+Command: ./cub3D "map/error_kusano/NO_SURROUNDED_WALL6.cub"
+Exit Status: 1
+Output:
+Error
+not close map_data
+
+=== OK Result for map/error_kusano/NO_SURROUNDED_WALL7.cub ===
+Command: ./cub3D "map/error_kusano/NO_SURROUNDED_WALL7.cub"
+Exit Status: 1
+Output:
+Error
+not close map_data
+
+=== OK Result for map/error_kusano/NO_SURROUNDED_WALL8.cub ===
+Command: ./cub3D "map/error_kusano/NO_SURROUNDED_WALL8.cub"
+Exit Status: 1
+Output:
+Error
+not close map_data
+
+=== OK Result for map/error_kusano/NO_SURROUNDED_WALL9.cub ===
+Command: ./cub3D "map/error_kusano/NO_SURROUNDED_WALL9.cub"
+Exit Status: 1
+Output:
+Error
+not close map_data
+
+=== OK Result for map/error_kusano/NO_less.cub ===
+Command: ./cub3D "map/error_kusano/NO_less.cub"
+Exit Status: 1
+Output:
+Error
+Textures must be set before map or need 4 textures
+
+=== OK Result for map/error_kusano/SO_OVER.cub ===
+Command: ./cub3D "map/error_kusano/SO_OVER.cub"
+Exit Status: 1
+Output:
+Error
+error: invalid texture
+
+=== OK Result for map/error_kusano/SO_less.cub ===
+Command: ./cub3D "map/error_kusano/SO_less.cub"
+Exit Status: 1
+Output:
+Error
+Textures must be set before map or need 4 textures
+
+=== OK Result for map/error_kusano/WE_OVER.cub ===
+Command: ./cub3D "map/error_kusano/WE_OVER.cub"
+Exit Status: 1
+Output:
+Error
+error: invalid texture
+
+=== OK Result for map/error_kusano/WE_less.cub ===
+Command: ./cub3D "map/error_kusano/WE_less.cub"
+Exit Status: 1
+Output:
+Error
+Textures must be set before map or need 4 textures
+
+=== OK Result for map/error_kusano/Wrong_position.cub ===
+Command: ./cub3D "map/error_kusano/Wrong_position.cub"
+Exit Status: 1
+Output:
+Error
+Textures must be set before map or need 4 textures
+
+=== OK Result for map/error_kusano/invalid_xpm_path.cub ===
+Command: ./cub3D "map/error_kusano/invalid_xpm_path.cub"
+Exit Status: 1
+Output:
+Error
+not close map_data
+
+=== OK Result for map/error_kusano/player_wall_off.cub ===
+Command: ./cub3D "map/error_kusano/player_wall_off.cub"
+Exit Status: 1
+Output:
+Error
+Empty line within map data
+

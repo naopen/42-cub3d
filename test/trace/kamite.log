@@ -1,0 +1,211 @@
+Trace Log for map/error_kamite - Tue Feb 11 17:11:18 JST 2025
+=== OK Result for map/error_kamite/hanarekojima1.cub ===
+Command: ./cub3D "map/error_kamite/hanarekojima1.cub"
+Exit Status: 1
+Output:
+Error
+Map contains an empty column
+
+=== OK Result for map/error_kamite/hanarekojima2.cub ===
+Command: ./cub3D "map/error_kamite/hanarekojima2.cub"
+Exit Status: 1
+Output:
+Error
+not close map_data
+
+=== OK Result for map/error_kamite/hanarekojima3.cub ===
+Command: ./cub3D "map/error_kamite/hanarekojima3.cub"
+Exit Status: 1
+Output:
+Error
+Empty line within map data
+
+=== OK Result for map/error_kamite/hanarekojima4.cub ===
+Command: ./cub3D "map/error_kamite/hanarekojima4.cub"
+Exit Status: 1
+Output:
+Error
+not close map_data
+
+=== OK Result for map/error_kamite/hanarekojima5.cub ===
+Command: ./cub3D "map/error_kamite/hanarekojima5.cub"
+Exit Status: 1
+Output:
+Error
+Empty line within map data
+
+=== OK Result for map/error_kamite/hanarekojima6.cub ===
+Command: ./cub3D "map/error_kamite/hanarekojima6.cub"
+Exit Status: 1
+Output:
+Error
+Empty line within map data
+
+=== OK Result for map/error_kamite/hanarekojima7.cub ===
+Command: ./cub3D "map/error_kamite/hanarekojima7.cub"
+Exit Status: 1
+Output:
+Error
+Empty line within map data
+
+=== OK Result for map/error_kamite/hanarekojima8.cub ===
+Command: ./cub3D "map/error_kamite/hanarekojima8.cub"
+Exit Status: 1
+Output:
+Error
+Empty line within map data
+
+=== OK Result for map/error_kamite/invalid_color1.cub ===
+Command: ./cub3D "map/error_kamite/invalid_color1.cub"
+Exit Status: 1
+Output:
+Error
+Color must be in [0..255]
+
+=== OK Result for map/error_kamite/invalid_color2.cub ===
+Command: ./cub3D "map/error_kamite/invalid_color2.cub"
+Exit Status: 1
+Output:
+Error
+Invalid B channel
+
+=== OK Result for map/error_kamite/invalid_color3.cub ===
+Command: ./cub3D "map/error_kamite/invalid_color3.cub"
+Exit Status: 1
+Output:
+Error
+Extra characters after B channel
+
+=== OK Result for map/error_kamite/invalidmap_direct_2xpm.cub ===
+Command: ./cub3D "map/error_kamite/invalidmap_direct_2xpm.cub"
+Exit Status: 1
+Output:
+Error
+Missing texture paths (NO, SO, WE,EA)
+
+=== OK Result for map/error_kamite/invalidmap_doubledirect.cub ===
+Command: ./cub3D "map/error_kamite/invalidmap_doubledirect.cub"
+Exit Status: 1
+Output:
+Error
+Missing texture paths (NO, SO, WE,EA)
+
+=== OK Result for map/error_kamite/invalidmap_dupplayer.cub ===
+Command: ./cub3D "map/error_kamite/invalidmap_dupplayer.cub"
+Exit Status: 1
+Output:
+Error
+More than one player start found.
+
+=== OK Result for map/error_kamite/invalidmap_elementdup.cub ===
+Command: ./cub3D "map/error_kamite/invalidmap_elementdup.cub"
+Exit Status: 1
+Output:
+Error
+error: invalid texture
+
+=== OK Result for map/error_kamite/invalidmap_empty.cub ===
+Command: ./cub3D "map/error_kamite/invalidmap_empty.cub"
+Exit Status: 1
+Output:
+Error
+No map data found.
+
+=== OK Result for map/error_kamite/invalidmap_minus.cub ===
+Command: ./cub3D "map/error_kamite/invalidmap_minus.cub"
+Exit Status: 1
+Output:
+Error
+Textures must be set before map or need 4 textures
+
+=== OK Result for map/error_kamite/invalidmap_newline.cub ===
+Command: ./cub3D "map/error_kamite/invalidmap_newline.cub"
+Exit Status: 1
+Output:
+Error
+Missing texture paths (NO, SO, WE,EA)
+
+=== OK Result for map/error_kamite/invalidmap_noplayer.cub ===
+Command: ./cub3D "map/error_kamite/invalidmap_noplayer.cub"
+Exit Status: 1
+Output:
+Error
+No player found in map data.
+
+=== OK Result for map/error_kamite/invalidmap_nowall_bottom.cub ===
+Command: ./cub3D "map/error_kamite/invalidmap_nowall_bottom.cub"
+Exit Status: 1
+Output:
+Error
+not close map_data
+
+=== OK Result for map/error_kamite/invalidmap_nowall_left.cub ===
+Command: ./cub3D "map/error_kamite/invalidmap_nowall_left.cub"
+Exit Status: 1
+Output:
+Error
+not close map_data
+
+=== OK Result for map/error_kamite/invalidmap_nowall_right.cub ===
+Command: ./cub3D "map/error_kamite/invalidmap_nowall_right.cub"
+Exit Status: 1
+Output:
+Error
+not close map_data
+
+=== OK Result for map/error_kamite/invalidmap_nowall_top.cub ===
+Command: ./cub3D "map/error_kamite/invalidmap_nowall_top.cub"
+Exit Status: 1
+Output:
+Error
+not close map_data
+
+=== OK Result for map/error_kamite/invalidmap_space.cub ===
+Command: ./cub3D "map/error_kamite/invalidmap_space.cub"
+Exit Status: 1
+Output:
+Error
+Missing texture paths (NO, SO, WE,EA)
+
+=== OK Result for map/error_kamite/leftS.cub ===
+Command: ./cub3D "map/error_kamite/leftS.cub"
+Exit Status: 1
+Output:
+Error
+More than one player start found.
+
+=== OK Result for map/error_kamite/less_dirgb1.cub ===
+Command: ./cub3D "map/error_kamite/less_dirgb1.cub"
+Exit Status: 1
+Output:
+Error
+Missing floor or ceiling color (F or C).
+
+=== OK Result for map/error_kamite/less_dirgb2.cub ===
+Command: ./cub3D "map/error_kamite/less_dirgb2.cub"
+Exit Status: 1
+Output:
+Error
+Textures must be set before map or need 4 textures
+
+=== OK Result for map/error_kamite/rightW.cub ===
+Command: ./cub3D "map/error_kamite/rightW.cub"
+Exit Status: 1
+Output:
+Error
+More than one player start found.
+
+=== OK Result for map/error_kamite/topN.cub ===
+Command: ./cub3D "map/error_kamite/topN.cub"
+Exit Status: 1
+Output:
+Error
+More than one player start found.
+
+=== OK Result for map/error_kamite/underN.cub ===
+Command: ./cub3D "map/error_kamite/underN.cub"
+Exit Status: 1
+Output:
+Error
+not close map_data
+
