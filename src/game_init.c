@@ -6,7 +6,7 @@
 /*   By: nkannan <nkannan@student.42tokyo.jp>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/12/26 15:09:43 by hosokawa          #+#    #+#             */
-/*   Updated: 2025/02/11 16:53:51 by nkannan          ###   ########.fr       */
+/*   Updated: 2025/02/11 17:19:56 by dhosokaw         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -32,6 +32,8 @@ void	wall_init(t_game *game)
 	game->wall.key_down = 0;
 	game->wall.key_left = 0;
 	game->wall.key_right = 0;
+	game->wall.key_left_rotate = 0;
+    	game->wall.key_right_rotate = 0;
 }
 
 // reverse_fit

@@ -6,7 +6,7 @@
 /*   By: nkannan <nkannan@student.42tokyo.jp>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/12/24 14:08:37 by hosokawa          #+#    #+#             */
-/*   Updated: 2025/02/11 17:10:58 by nkannan          ###   ########.fr       */
+/*   Updated: 2025/02/11 17:19:12 by dhosokaw         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -175,7 +175,6 @@ typedef struct s_game
 	int				**map;
 	int				map_height;
 	int				map_width;
-	int				world_map[10][10];
 
 }					t_game;
 
@@ -282,7 +281,6 @@ void				copy_data(t_game *game, t_use_data *use_data);
 void				wall_init(t_game *game);
 void				camera_init(t_game *game);
 void				dda_info_init(t_game *game);
-void				world_map_init(t_game *game);
 void				tex_info_init(t_game *game);
 void				game_init(t_game *game);
 
